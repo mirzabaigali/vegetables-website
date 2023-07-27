@@ -1,0 +1,60 @@
+.landing_product_section .product-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: 0.2rem solid var(--light-color);
+  padding: 2rem 1rem;
+  transition: all 0.3s;
+}
+.landing_product_section .product-card img {
+  margin-bottom: 7rem;
+  text-align: center;
+}
+.landing_product_section .product-card h3 {
+  color: var(--primary-text);
+  font-size: 2rem;
+}
+.landing_product_section .product-card span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--scondary-color);
+  margin-right: 0.5rem;
+  text-decoration: line-through;
+  transition: all0.3s;
+}
+.landing_product_section .product-card .product-detail {
+  position: absolute;
+  bottom: -22rem;
+  right: 0;
+  left: 0;
+  text-align: center;
+  padding: 5rem 1rem;
+  background-color: var(--dark-color);
+  transition: all 0.5s ease;
+  font-size: 15px;
+}
+.landing_product_section .product-card:hover .product-detail {
+  bottom: 0;
+}
+
+.landing_product_section .product-card .product-detail .main-btn1 {
+  position: relative;
+  color: var(--bg-white);
+  background: linear-gradient(to right, #0f7404, #5cb917);
+  z-index: 1;
+  overflow: hidden;
+  border: 0.2rem solid var(--bg-white);
+  border-radius: 3.5rem;
+  text-transform: uppercase;
+  padding: 1rem 3.5rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+.landing_product_section .product-card .product-detail .main-btn1:hover {
+  background: var(--bg-white);
+  color: var(--secondary-color);
+  border: 0.2rem solid var(--secondary-color);
+}
